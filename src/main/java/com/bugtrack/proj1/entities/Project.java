@@ -4,7 +4,7 @@ public class Project {
 
 	private long projId;
 	private String projTitle;
-	private String projDescript;
+	private String projDescription;
 	
 	public Project() {
 		
@@ -18,12 +18,12 @@ public class Project {
 		this.projTitle = projTitle;
 	}
 
-	public String getProjDescript() {
-		return projDescript;
+	public String getProjDescription() {
+		return projDescription;
 	}
 
-	public void setProjDescript(String projDescript) {
-		this.projDescript = projDescript;
+	public void setProjDescription(String projDescription) {
+		this.projDescription = projDescription;
 	}
 	
 	

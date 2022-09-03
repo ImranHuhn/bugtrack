@@ -1,0 +1,20 @@
+entities:
+	member
+		id
+		fname
+		lname
+		email
+		create
+	project
+		id
+		name
+		descript
+			
+	ticket
+		id
+		create
+		members
+		roles
+		status
+		comments
+		update
