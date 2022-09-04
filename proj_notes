@@ -1,4 +1,5 @@
-entities:
+entities: 
+create database attributes, setters&getters, constructor, empty constructor
 	member
 		id
 		fname
