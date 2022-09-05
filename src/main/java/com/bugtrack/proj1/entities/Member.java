@@ -13,32 +13,51 @@ public class Member {
 	private String memberEmail;
 	private Date memberCreated;
 	
+	
 	public Member() {
 		
 	}
 	
-	public String getmemberFname() {
-		return memberFname;
-	}
-	public void setmemberFname(String memberFname) {
+	
+	public Member(String memberFname, String memberLname, String memberEmail, Date memberCreated) {
+		super();
 		this.memberFname = memberFname;
-	}
-	public String getmemberLname() {
-		return memberLname;
-	}
-	public void setmemberLname(String memberLname) {
 		this.memberLname = memberLname;
-	}
-	public String getmemberEmail() {
-		return memberEmail;
-	}
-	public void setmemberEmail(String memberEmail) {
 		this.memberEmail = memberEmail;
-	}
-	public Date getmemberCreated() {
-		return memberCreated;
-	}
-	public void setmemberCreated(Date memberCreated) {
 		this.memberCreated = memberCreated;
 	}
+	
+	
+	public long getMemberId() {
+		return memberId;
+	}
+	public void setMemberId(long memberId) {
+		this.memberId = memberId;
+	}
+	public String getMemberFname() {
+		return memberFname;
+	}
+	public void setMemberFname(String memberFname) {
+		this.memberFname = memberFname;
+	}
+	public String getMemberLname() {
+		return memberLname;
+	}
+	public void setMemberLname(String memberLname) {
+		this.memberLname = memberLname;
+	}
+	public String getMemberEmail() {
+		return memberEmail;
+	}
+	public void setMemberEmail(String memberEmail) {
+		this.memberEmail = memberEmail;
+	}
+	public Date getMemberCreated() {
+		return memberCreated;
+	}
+	public void setMemberCreated(Date memberCreated) {
+		this.memberCreated = memberCreated;
+	}
+
+	
 }
