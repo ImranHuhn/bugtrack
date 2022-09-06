@@ -2,9 +2,16 @@ package com.bugtrack.proj1.entities;
 
 import java.util.Date;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 public class Ticket {
 //id, create, members, roles, status, comments, update
 	
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private long ticketId;
 	private Date ticketCreated;
 	private String ticketRoles;

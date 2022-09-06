@@ -1,7 +1,14 @@
 package com.bugtrack.proj1.entities;
 
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+
 public class Project {
 
+	
+	@Id
+	@GeneratedValue(strategy=GenerationType.AUTO)
 	private long projId;
 	private String projTitle;
 	private String projDescription;
