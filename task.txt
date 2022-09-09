@@ -1,0 +1,5 @@
+Members entity
+-connect bootstrap
+-create html forms
+-create controller url map
+-test live dev tools through server
