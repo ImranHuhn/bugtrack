@@ -12,12 +12,12 @@ public class Ticket {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private long ticketId;
-	private Date ticketCreated;
-	private String ticketRoles;
-	private String ticketStatus;
-	private String ticketComments;
-	private Date ticketUpdate;
+	private long ticketId; //in html, this will be given by db
+	private Date ticketCreated; //in html, this will be given by today's date
+	private String ticketRoles; //in html, this will be a drop down
+	private String ticketStatus; //in html, this will be 3 radio buttons to select from
+	private String ticketComments; //in html, this will be a text box
+	private Date ticketUpdate; //in html, this will given by today's date
 	
 	
 	public Ticket() {

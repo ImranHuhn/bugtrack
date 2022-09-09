@@ -1,0 +1,6 @@
+Members entity
+-connect bootstrap
+-create html forms
+-create controller url map
+-connect controller url with html through thymeleaf
+-test live dev tools through H2 server
