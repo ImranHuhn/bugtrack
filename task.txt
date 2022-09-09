@@ -2,4 +2,4 @@ Members entity
 -connect bootstrap
 -create html forms
 -create controller url map
--test live dev tools through server
+-test live dev tools through H2 server

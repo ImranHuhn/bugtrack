@@ -13,11 +13,11 @@ public class Member {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private long memberId;
-	private String memberFname;
-	private String memberLname;
-	private String memberEmail;
-	private Date memberCreated;
+	private long memberId; //in html, this will be given by db
+	private String memberFname; //in html, this will be a text field 
+	private String memberLname; //in html, this will be a text field
+	private String memberEmail; //in html, this will be a text field
+	private Date memberCreated;	//in html, this will be given by today's date
 	
 	
 	public Member() {

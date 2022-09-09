@@ -9,9 +9,9 @@ public class Project {
 	
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private long projId;
-	private String projTitle;
-	private String projDescription;
+	private long projId; //in html, this will be given by db
+	private String projTitle; //in html, this will be a text field
+	private String projDescription; //in html, this will be a text box
 	
 	
 	public Project() {
